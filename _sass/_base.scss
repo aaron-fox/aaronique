@@ -1,0 +1,175 @@
+/*\
+)A( Wrapper
+\*/
+.clean {
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.wrapper {
+    font-family: "Merriweather Sans";
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    @media all and (max-width: 1000px) {
+        max-width: 80vw;
+    }
+    @media all and (max-width: 575px) {
+        max-width: 100vw;
+        zoom: 80%;
+    }
+    @media all and (max-width: 450px) {
+        max-width: 120vw;
+        zoom: 70%;
+    }
+}
+
+/*\
+)A( Basic Styling
+\*/
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern"1;
+    -moz-font-feature-settings: "kern"1;
+    -o-font-feature-settings: "kern"1;
+    font-feature-settings: "kern"1;
+    font-kerning: normal;
+}
+
+/*\
+)A( Heading
+\*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+h1 {
+    margin: 2.5em;
+}
+
+h2 {
+    margin: 2em;
+}
+
+h3 {
+    margin: 1.5em;
+}
+
+h4 {
+    margin: 1em;
+}
+
+table {
+    text-align: center;
+}
+
+/*\
+)A( Link
+\*/
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+/*\
+)A( List
+\*/
+
+ul,
+ol {
+    margin-left: 0;
+    line-height: 1.5em;
+}
+
+li {
+    >ul,
+    >ol {
+        padding-left: 1.25em;
+        margin-bottom: 0;
+    }
+}
+
+/*\
+)A( Image
+\*/
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/*\
+)A( Figure
+\*/
+
+figure>img {
+    display: block;
+}
+
+figcaption {
+    font-size: 14px;
+}
+
+/*\
+)A( Icon
+\*/
+
+.icon {
+    >svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+    }
+}
+
+/*\
+)A( Code
+\*/
+
+pre,
+code {
+    font-family: "Roboto Mono";
+    font-size: 12px;
+    border: 1.2px solid;
+    border-radius: 8px;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+    >code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/*\
+)A( Blockquote
+\*/
+
+blockquote {
+    font-size: 14px;
+    font-style: italic;
+    border-left: 1.5px solid;
+    padding-left: 10px;
+    > :last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,69 @@
+/*\
+)A( Light color Palette
+\*/
+
+$l-background: #fdfdfd;
+$l-border: #ebebeb;
+$l-site-title: #303030;
+$l-text: #303030;
+$l-link: #F64035;
+;
+/*\
+)A( Body
+\*/
+
+body.light {
+    color: $l-text;
+    background-color: $l-background;
+    /*\
+    )A( Site Header
+    \*/
+    .site-title {
+        color: $l-site-title;
+    }
+    .site-navigation {
+        color: $l-text;
+    }
+    .site-navigation-home {
+        color: $l-link;
+    }
+    .page-description {
+        color: $l-text;
+    }
+    /*\
+    )A( Link
+    \*/
+    a,
+    .fa {
+        color: $l-text;
+        &:hover {
+            color: $l-link;
+        }
+    }
+    /*\
+    )A( Code
+    \*/
+    pre,
+    code {
+        border-color: $l-border;
+    }
+    /*\
+    )A( Blockquote
+    \*/
+    blockquote {
+        color: $l-text;
+        border-left-color: $l-border;
+    }
+    /*\
+    )A( Icon
+    \*/
+    .icon>svg path {
+        fill: $l-text;
+    }
+    /*\
+    )A( Site Footer
+    \*/
+    .site-footer {
+        border-top-color: $l-border;
+    }
+}

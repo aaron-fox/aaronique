@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <div class="center">
+
+    <a class="clean" href="/index.html">
+      <img class="site-profile" src="/assets/images/profile.png" " alt=" profile-image"><br />
+    </a>
+    <a class="site-title clean" href="/index.html">{{site.title}} </a>
+
+    <div class="site-description">
+      {{site.description}}
+    </div>
+
+    <a class="site-navigation site-navigation-home clean" href="{{site.url}}{{site.baseurl}}">-HOME-</a>
+
+    {% for sitePage in site.pages %}
+    {% if sitePage.title %}
+    <a class="site-navigation clean" href="{{sitePage.url | prepend: site.baseurl }}">
+      {{sitePage.title}}
+    </a>
+    {% endif %} {% endfor %}
+
+  </div>
+</div>

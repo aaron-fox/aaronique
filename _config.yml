@@ -1,0 +1,10 @@
+# Site settings
+title: AaroNique
+email: liangwang.aaron@gmail.com
+description: A Mind Shelter
+baseurl: ""
+url: "http://www.aaronique.com"
+# Plugins
+plugins: [kramdown]
+# Build settings
+markdown: kramdown

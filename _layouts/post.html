@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<script src="/assets/js/page.js"></script>
+
+<div class="post">
+  <div class="center">
+
+    <div class="post-title" itemprop="name headline">
+      {{ page.title }}
+    </div>
+    <div class="post-subline">
+      {% if page.author %} {{page.author}} &#45 {% endif %}
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+    </div>
+    
+  </div>
+
+  <br />
+
+  <div class="post-content post-content-full">
+    {{ content }}
+  </div>
+
+  <div class="post-navigation">
+    {% if page.next.url %}
+    <a class="post-next clean" href="{{page.next.url}}">
+      &laquo; {{page.next.title}}
+    </a>
+    {% endif %}
+    {% if page.previous.url %}
+    <a class="post-prev clean" href="{{page.previous.url}}">
+      {{page.previous.title}} &raquo;
+    </a>
+    {% endif %}
+  </div>
+
+</div>

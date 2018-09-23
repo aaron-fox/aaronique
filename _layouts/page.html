@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<script src="/assets/js/page.js"></script>
+
+<div class="page">
+  <div class="center">
+
+    <div class="page-description">
+      <em >{{page.description}}</em>
+    </div>
+
+    {% for post in site.posts %}
+    {% for cat in post.category %}
+    {% if cat == page.category %}
+
+    <a class="post-title clean" href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+
+    <div class="post-subline">
+      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </time>
+    </div>
+
+    <div class="post-content">
+      {{ post.content | strip_html | truncate:300}}
+    </div>
+
+    {% endif %} {% endfor %} {% endfor %}
+
+  </div>
+</div>

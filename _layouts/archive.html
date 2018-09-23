@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<script src="/assets/js/page.js"></script>
+
+<div class="archive">
+  <div class="center">
+
+    {%if page.description%}
+    <div class="page-description">
+      <em>{{page.description}}</em>
+    </div>
+    {% endif %}
+
+    {% for post in site.posts %}
+    {% for cat in post.category %}
+    {% if cat == page.category %}
+
+    {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+    {% if currentyear != year %}
+    <div class="post-year">-- {{ currentyear }} --</div>
+    {% capture year %}{{currentyear}}{% endcapture %}
+    {% endif %}
+
+    <a class="post-title clean" href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+
+    <div class="post-excerpt">
+      {{post.excerpt}}
+    </div>
+
+    {% endif %} {% endfor %} {% endfor %}
+
+  </div>
+</div>

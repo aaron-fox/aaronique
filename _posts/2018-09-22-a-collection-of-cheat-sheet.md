@@ -2,7 +2,7 @@
 layout: post
 title: "A Collection of Cheat Sheets"
 date: 2018-09-22 -5000
-category: ["library", "archive", "cheat sheet"]
+category: ["studies", "archive", "cheat sheet"]
 author: Aaron Wang
 ---
 

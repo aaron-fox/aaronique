@@ -2,7 +2,7 @@
 layout: post
 title: "First Attempt at T-Shirt Design"
 date: 2018-03-31 -5000
-category: ["studio", "archive", "ps"]
+category: ["works", "archive", "ps"]
 author: Aaron Wang
 ---
 

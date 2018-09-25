@@ -1,7 +1,7 @@
 ---
 layout: page
-title : Studio
-permalink: /studio/
+title : Studies
+permalink: /studies/
 description: "...flamenco sketches..."
-category: "studio"
+category: "studies"
 ---

@@ -3,7 +3,6 @@
 \*/
 
 .site-profile {
-    margin-top: 1em;
     width: 110px;
     height: 140px;
 }
@@ -25,7 +24,7 @@
 
 .site-navigation {
     &:not(:last-child) {
-        margin-right: 3em;
+        margin-right: 2em;
     }
     font-family: 'Merriweather';
     font-size: 13px;

@@ -3,18 +3,23 @@
 \*/
 
 .site-profile {
-    width: 110px;
-    height: 140px;
+    width: 110px; // 20%
+    height: 140px; // 20%
+    @media all and (max-width: 500px) {
+        width: 22vw;
+        height: 28vw;
+    }
 }
 
 .site-title {
     font-family: 'Henny Penny';
     font-size: 64px;
-    font-weight: 400;
-    display: inline-block;
     @media all and (max-width: 500px) {
         font-size: 12.8vw;
     }
+    font-weight: 400;
+    display: inline-block;
+
 }
 
 .site-description {
@@ -22,6 +27,9 @@
     padding-bottom: 4em;
     font-family: 'Gloria Hallelujah';
     font-size: 14px;
+    @media all and (max-width: 500px) {
+        font-size: 2.8vw;
+    }
     letter-spacing: 2px;
 }
 
@@ -31,11 +39,12 @@
     }
     font-family: 'Merriweather';
     font-size: 13px;
+    @media all and (max-width: 500px) {
+        font-size: 2.5vw;
+    }
     font-weight: 400;
     text-transform: uppercase;
-    @media all and (max-width: 500px) {
-        font-size: 2.6vw;
-    }
+
 }
 
 /*\
@@ -68,6 +77,9 @@
     line-height: 3em;
     font-family: "Gloria Hallelujah";
     font-size: 14px;
+    @media all and (max-width: 500px) {
+        font-size: 2.8vw;
+    }
     text-transform: lowercase;
 }
 
@@ -78,6 +90,9 @@
 .post-title {
     font-family: "Merriweather";
     font-size: 22px;
+    @media all and (max-width: 500px) {
+        font-size: 4.4vw;
+    }
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -86,12 +101,18 @@
     padding-bottom: 2em;
     font-family: "Merriweather";
     font-size: 20px;
+    @media all and (max-width: 500px) {
+        font-size: 4vw;
+    }
     font-weight: 400;
 }
 
 .post-subline {
     padding-top: 2em;
     font-size: 12px;
+    @media all and (max-width: 500px) {
+        font-size: 2.4vw;
+    }
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -106,6 +127,9 @@
     padding-top: 2em;
     padding-bottom: 3em;
     font-size: 14px;
+    @media all and (max-width: 500px) {
+        font-size: 2.8vw;
+    }
     font-weight: 400;
 }
 
@@ -113,6 +137,9 @@
     padding-top: 3em;
     padding-bottom: 5em;
     font-size: 14px;
+    @media all and (max-width: 500px) {
+        font-size: 2.8vw;
+    }
     text-align: justify;
 }
 
@@ -138,6 +165,9 @@
     width: 49%;
     font-family: "Merriweather";
     font-size: 14px;
+    @media all and (max-width: 500px) {
+        font-size: 2.8vw;
+    }
     font-weight: 600;
     display: inline-block;
 }
@@ -153,4 +183,7 @@
 .site-footer {
     padding-top: 1em;
     padding-bottom: 1em;
+    @media all and (max-width: 500px) {
+        font-size: 3.2vw;
+    }
 }

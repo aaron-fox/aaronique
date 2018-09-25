@@ -65,7 +65,10 @@ a {
 
 ul,
 ol {
-    margin-left: 0;
+    margin-left: 0em;
+    @media all and (max-width: 500px) {
+        margin-left: -1.0em;
+    }
     line-height: 1.5em;
 }
 

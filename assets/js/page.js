@@ -1,3 +1,3 @@
 $(document).ready(function () {
-  $(this).scrollTop(390);
+  $(this).scrollTop(330);
 });

@@ -124,7 +124,11 @@
 .post-excerpt {
     padding-top: 0em;
     padding-bottom: 1em;
-    font-weight: 300;
+    font-size: 14px;
+    @media all and (max-width: 500px) {
+        font-size: 2.8vw;
+    }
+    font-weight: 400;
 }
 
 .post-content {

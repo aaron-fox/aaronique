@@ -15,8 +15,8 @@
     max-width: 750px;
     margin-right: auto;
     margin-left: auto;
-    @media all and (max-width: 937.5px) {
-        max-width: 80vw;
+    @media all and (max-width: 833.33px) {
+        max-width: 90vw;
     }
 }
 
@@ -63,20 +63,20 @@ a {
 )A( List
 \*/
 
-ul,
+ul {
+    padding-left: 1.3em;
+    line-height: 1.75em;
+}
+
 ol {
-    margin-left: 0em;
-    @media all and (max-width: 500px) {
-        margin-left: -1.0em;
-    }
+    padding-left: 2.5em;
     line-height: 1.5em;
 }
 
 li {
     >ul,
     >ol {
-        padding-left: 1.25em;
-        margin-bottom: 0;
+        margin-left: 1em; 
     }
 }
 

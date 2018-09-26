@@ -15,7 +15,7 @@ A little background. My fiends and I will climb the CN Tower (apparently by stai
 Due to the pathetic truth that I can not draw, I desperately long for some pre existing artwork as design reference. After a long search I found this guy [here](http://www.pinsdaddy.com/art-for-sale_%7C3UPHGFEP2fYQ*tFSM5qsNd2rJ9rYqWc1NrEW36WrGU/bG6o95OgOc3jAuZIsi4NyAWxU0cezwwD0MbNRrs30NxYJK*wCLmgrBxGTDaxdSK79PHDalHAvh5ralpbXgpCmKjRkL%7C4tcH9hiNYTHfAC7bPu%7CkEi7QOseNMToSXdP1E/).
 
 <center>
-<img src="/assets/posts/2018-03-30-first-attempt-at-t-shirt-design/climbing_cat_origin.jpg" alt="cat is missing" width="33.3%" height="33.3%" />
+<img src="/assets/posts/2018-03-30-first-attempt-at-t-shirt-design/climbing_cat_origin.jpg" alt="cat is missing" width="50%" height="50%" />
 </center>
 
 The picture is good for redesign for several reasons:

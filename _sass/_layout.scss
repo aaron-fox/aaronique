@@ -13,9 +13,9 @@
 
 .site-title {
     font-family: 'Henny Penny';
-    font-size: 64px;
+    font-size: 56px;
     @media all and (max-width: 500px) {
-        font-size: 12.8vw;
+        font-size: 11.2vw;
     }
     font-weight: 400;
     display: inline-block;
@@ -23,27 +23,28 @@
 }
 
 .site-description {
-    padding-top: 1em;
-    padding-bottom: 4em;
+    padding-top: 0em;
+    padding-bottom: 3em;
     font-family: 'Gloria Hallelujah';
     font-size: 14px;
     @media all and (max-width: 500px) {
         font-size: 2.8vw;
+        letter-spacing: 0.4vw;
     }
     letter-spacing: 2px;
 }
 
 .site-navigation {
     &:not(:last-child) {
-        margin-right: 2em;
+        margin-right: 2.5em;
     }
     font-family: 'Merriweather';
     font-size: 13px;
     @media all and (max-width: 500px) {
-        font-size: 2.5vw;
+        font-size: 2.6vw;
     }
     font-weight: 400;
-    text-transform: uppercase;
+    // text-transform: uppercase;
 
 }
 
@@ -69,6 +70,9 @@
 .post {
     padding-top: 4em;
     padding-bottom: 0em;
+    @media all and (max-width: 500px) {
+        padding-top: 12vw;
+    }
 }
 
 .page-description {
@@ -134,7 +138,7 @@
 }
 
 .post-content-full {
-    padding-top: 3em;
+    padding-top: 2em;
     padding-bottom: 5em;
     font-size: 14px;
     @media all and (max-width: 500px) {

@@ -1,3 +1,7 @@
 $(document).ready(function () {
-  $(this).scrollTop(330);
+  if ($(window).width() > 500) {
+    $(this).scrollTop(290);
+  } else {
+    $(this).scrollTop(290 / 490 * $(window).width());
+  }
 });

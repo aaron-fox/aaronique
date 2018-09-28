@@ -1,3 +1,4 @@
+@import "var";
 /*\
 )A( Site Header
 \*/
@@ -5,7 +6,7 @@
 .site-profile {
     width: 110px;
     height: 140px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         width: 22vw;
         height: 28vw;
     }
@@ -14,12 +15,11 @@
 .site-title {
     font-family: 'Henny Penny';
     font-size: 56px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 11.2vw;
     }
     font-weight: 400;
     display: inline-block;
-
 }
 
 .site-description {
@@ -27,7 +27,7 @@
     padding-bottom: 3em;
     font-family: 'Gloria Hallelujah';
     font-size: 14px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 2.8vw;
         letter-spacing: 0.4vw;
     }
@@ -40,12 +40,10 @@
     }
     font-family: 'Merriweather';
     font-size: 13px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 2.6vw;
     }
-    font-weight: 400;
-    // text-transform: uppercase;
-
+    font-weight: 400; // text-transform: uppercase;
 }
 
 /*\
@@ -70,7 +68,7 @@
 .post {
     padding-top: 4em;
     padding-bottom: 0em;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         padding-top: 12vw;
     }
 }
@@ -81,7 +79,7 @@
     line-height: 3em;
     font-family: "Gloria Hallelujah";
     font-size: 14px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 2.8vw;
     }
     text-transform: lowercase;
@@ -94,7 +92,7 @@
 .post-title {
     font-family: "Merriweather";
     font-size: 22px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 4.4vw;
     }
     font-weight: 600;
@@ -105,7 +103,7 @@
     padding-bottom: 2em;
     font-family: "Merriweather";
     font-size: 20px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 4vw;
     }
     font-weight: 400;
@@ -114,7 +112,7 @@
 .post-subline {
     padding-top: 2em;
     font-size: 12px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 2.4vw;
     }
     font-weight: 400;
@@ -125,7 +123,7 @@
     padding-top: 0em;
     padding-bottom: 1em;
     font-size: 16px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 3.2vw;
     }
     font-weight: 400;
@@ -135,7 +133,7 @@
     padding-top: 2em;
     padding-bottom: 3em;
     font-size: 14px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 2.8vw;
     }
     font-weight: 400;
@@ -145,7 +143,7 @@
     padding-top: 2em;
     padding-bottom: 5em;
     font-size: 14px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 2.8vw;
     }
     text-align: justify;
@@ -154,6 +152,11 @@
 .post-content-link {
     border-bottom: 1px dashed;
 }
+
+.MathJax {
+    font-size: 12px !important;
+}
+
 /*\
 )A( Pagination
 \*/
@@ -173,7 +176,7 @@
     width: 49%;
     font-family: "Merriweather";
     font-size: 14px;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 2.8vw;
     }
     font-weight: 600;
@@ -191,7 +194,7 @@
 .site-footer {
     padding-top: 1em;
     padding-bottom: 1em;
-    @media all and (max-width: 500px) {
+    @media all and (max-width: $max-width-mobile) {
         font-size: 3.2vw;
     }
 }

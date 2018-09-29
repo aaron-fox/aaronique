@@ -6,6 +6,7 @@ $l-background: #fdfdfd;
 $l-border: #ebebeb;
 $l-site-title: #303030;
 $l-text: #303030;
+$l-subline: #808080;
 $l-link: #F64035;
 ;
 /*\
@@ -39,6 +40,13 @@ body.light {
         &:hover {
             color: $l-link;
         }
+    }
+    /*\
+    )A( Post
+    \*/
+    .post-subline,
+    .post-subline-archive {
+        color: $l-subline;
     }
     /*\
     )A( Code

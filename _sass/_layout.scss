@@ -43,7 +43,7 @@
     @media all and (max-width: $max-width-mobile) {
         font-size: 2.6vw;
     }
-    font-weight: 400; // text-transform: uppercase;
+    font-weight: 400;
 }
 
 /*\
@@ -57,12 +57,12 @@
 
 .page {
     padding-top: 0em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 }
 
 .archive {
     padding-top: 0em;
-    padding-bottom: 2em;
+    padding-bottom: 2.5em;
 }
 
 .post {
@@ -91,11 +91,22 @@
 
 .post-title {
     font-family: "Merriweather";
-    font-size: 22px;
+    font-size: 20px;
     @media all and (max-width: $max-width-mobile) {
-        font-size: 4.4vw;
+        font-size: 4vw;
     }
     font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.post-title-archive {
+    font-family: "Merriweather";
+    font-size: 14px;
+    @media all and (max-width: $max-width-mobile) {
+        font-size: 2.8vw;
+    }
+    font-weight: 500;
+    line-height: 2.5em;
     letter-spacing: 1px;
 }
 
@@ -106,11 +117,15 @@
     @media all and (max-width: $max-width-mobile) {
         font-size: 4vw;
     }
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .post-subline {
     padding-top: 2em;
+}
+
+.post-subline,
+.post-subline-archive {
     font-size: 12px;
     @media all and (max-width: $max-width-mobile) {
         font-size: 2.4vw;
@@ -120,8 +135,8 @@
 }
 
 .post-excerpt {
-    padding-top: 0em;
-    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
     font-size: 16px;
     @media all and (max-width: $max-width-mobile) {
         font-size: 3.2vw;

@@ -22,12 +22,14 @@ layout: default
     <div class="post-year">-- {{ currentyear }} --</div>
     {% capture year %}{{currentyear}}{% endcapture %}
     {% endif %}
-
-    <a class="post-title clean" href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-
-    <div class="post-excerpt">
-      {{post.excerpt}}
+    
+    <div class="post-subline-archive">
+      {{post.date | date: "%m/%d"}} - <a class="post-title-archive clean" href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a><br />
     </div>
+
+    <!-- <div class="post-excerpt">
+      {{post.excerpt}}
+    </div> -->
 
     {% endif %} {% endfor %} {% endfor %}
 

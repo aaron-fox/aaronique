@@ -14,10 +14,10 @@ $$
 \begin{aligned} 
 EPE(f, \hat f)&=E[(f+\epsilon-\hat f)^2] \\ 
 &=E[(f-\hat f)^2+2(f-\hat f)\epsilon+\epsilon^2] \\ 
-&=E[f-\hat f]^2+2E[f-\hat f]E[\epsilon]+E[\epsilon^2] \\ 
-&=E[\hat f-E[\hat f]+E[\hat f]-f]^2+\sigma^2 \\ 
-&=E[\hat f-E[\hat f]]^2+2(E[\hat f]-E[\hat f])(E[\hat f]-E[f])+E[E[\hat f]-f)]^2+\sigma^2 \\ 
-&=E[\hat f-E[\hat f]]^2+E[E[\hat f]-f)]^2+\sigma^2 \\ 
+&=E[(f-\hat f)^2]+2E[f-\hat f]E[\epsilon]+E[\epsilon^2] \\ 
+&=E[(\hat f-E[\hat f]+E[\hat f]-f)^2]+\sigma^2 \\ 
+&=E[(\hat f-E[\hat f])^2]+2(E[\hat f]-E[\hat f])(E[\hat f]-E[f])+E[(E[\hat f]-f)^2]+\sigma^2 \\ 
+&=E[(\hat f-E[\hat f])^2]+(E[\hat f]-E[f])^2+\sigma^2 \\ 
 &=Var[\hat f]+Bias[\hat f]^2+\sigma^2 
 \end{aligned} 
 $$

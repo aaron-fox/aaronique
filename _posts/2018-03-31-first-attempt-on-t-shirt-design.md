@@ -6,9 +6,9 @@ category: ["works", "archive", "ps"]
 author: Aaron Wang
 ---
 
-We are climbing cats!
+I love animals, especially cats. I always want one but always hesitate and give up in the end. Possibly in my deep heart, I am afraid I could not offer it a wonderful life. I do envy some of my mates who got fluffy friends but also blame them for feeding their little buddies too fat. Anyway, as the type of person who loves to make things happen, when the situation is not good for adoption, I would look for a walkaround, the donation. Previously I mainly donated to organizations offering knowledge like Wikipedia or fighting for human rights like the Trevor Project.
 
-A little background. My fiends and I will climb the CN Tower (apparently by stairs) on April 7th to raise funds for WWF. To make it a bit more fun, I decided to design some logos and put them on shirts.
+This is the first time I donate to an animal organization and it's also the first time I donate by climbing a tower with friends. To make the experience a bit more fun, I decided to design some cat logos, put them on a t-shirt, and wear it all the way up while climbing.
 
 ## The Referential Artwork
 
